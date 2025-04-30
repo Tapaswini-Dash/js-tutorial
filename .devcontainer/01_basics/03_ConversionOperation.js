@@ -29,3 +29,44 @@ console.log(valueInNumber);
   let valueInNumber1 = String(score2)
   console.log(typeof valueInNumber1);
   console.log(valueInNumber1);
+
+  //console.log(2+2);
+   //console.log(2-2);
+    //console.log(2*2);
+     //console.log(2**2);
+      //console.log(2/2);
+       //console.log(2%2);
+
+       let str1 = "hello"
+       let str2 = " Sneha"
+
+       let str3 = str1 + str2
+       console.log(str3);
+
+       console.log("1"+2);//12
+       console.log(1+"2");//12
+       console.log("1"+"2");//12
+       console.log("1"+2+2);// 122 as first here is string
+       console.log(1+2+"2"); // 32 as first addition then string in this case
+       console.log(3+4*5%3);
+
+
+       console.log(2>1);
+       console.log(2>=1);
+       console.log(2<1);
+       console.log(2==1);
+       console.log(2!=1);
+
+
+       console.log("2">1); // true as it converts string to no.
+       console.log("02">1);
+       console.log(null>=0);
+       console.log(null>0);
+       console.log(null==0);
+
+       console.log(undefined==0);
+       console.log(undefined>=0);
+       console.log(undefined<0);
+
+
+       console.log("2"===2);
