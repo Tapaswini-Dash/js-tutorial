@@ -32,9 +32,11 @@ let myObj = {
 const myfunction = function  () {
     console.log("Hello World");
 }
+myfunction ();
 
 console.log(typeof bignumber);
 console.log(typeof myfunction);
+console.log(typeof myObj);
 // jitne bhi non-primitive daytype hain unka typeof datatype function hota hai 
 // awur jab function ka return type dekh te hain toh woh object function hota hai...
 //https://262.ecma-interantional.org/5.1/#sec-11.4.3
